@@ -1,0 +1,39 @@
+body {
+    color: rgb(63, 43, 80);
+
+}
+.solid-border {
+    border: 5px solid rgb(80, 2, 80);
+    margin: 10px;
+    padding: 10px;
+}
+.center-title {
+    color:rgb(177, 36, 36);
+    margin: 0 auto;
+    width: 500px;
+}
+.navigation-link li {
+    display: inline;
+    margin: 10px;
+}
+
+@media screen and (min-width:1024px) {
+    body{
+        background: rgb(127, 168, 245);
+        color:rgb(80, 2, 80);
+        line-height: 25px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    body{
+        background: rgb(88, 238, 163);
+        font-size: 20px;
+        color:rgb(46, 11, 247);
+    }
+    section{
+        width:400px;
+    }    
+}
+
